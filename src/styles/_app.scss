@@ -1,0 +1,35 @@
+.App {
+    align-items: center;
+    justify-content: center;
+    background-color: #add8e6;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.tool-container{
+    display: flex;
+    flex-direction: column;   
+}
+.tool-weight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.modal-container{
+    height: 100px;
+    min-width: 300px;
+}
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-open{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.in-modal{
+    margin: 50px
+}
